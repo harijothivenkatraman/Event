@@ -35,3 +35,37 @@ nav a:hover{
     color: #124949;
     opacity: 0.8;
 }
+main{
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+section{
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-card{
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+  #mail{
+    color:black;
+    font-size: 24px;
+  }
+  #mail:hover{
+    color: #124949;
+    transition: all 0.3s ease-in;
+    animation: ease-in-out 0.3s;
+  }
